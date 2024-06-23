@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Home Page</title>
+<style>
+fieldset{
+padding:10px;
+height:300px;
+width:500px;
+margin-left:80px;
+margin-top:80px;
+background-image:linear-gradient(90deg,pink,white,pink);
+}
+button{
+backgropund-color:red;
+}
+body{
+background-image:url('Images/pooji.png');
+ background-size: cover;
+ height: 35vh;
+ background-position : center;
+ 
+}
+h1{
+padding:10px;
+font-size:50px;
+margin-left:200px;
+margin-right:160px;
+}
+h2{
+margin-top:-20px;}
+</style>
+</head>
+<form action="HomeServlet">
+<center><h1><u>Welcome to PACE</u></h1></center>
+<body>
+<form>
+<center>
+<fieldset>
+<br><br><br>
+<h2 style='color:black'>Job Application Form</h2><br>
+<button style='background-color:pink', type="submit" name="action" value="action1">Applicant Login</button><br><br>
+<button style='background-color:pink','type="submit" name="action" value="action2">Admin Login</button><br><br>
+<p style="color:black">Don't have Account?&nbsp;<button style='background-color:pink',type="submit" name="action" value="action3"><p>REGISTER</p></button>
+</fieldset>
+</center>
+</form>
+</body>
+</form>
+</html>
